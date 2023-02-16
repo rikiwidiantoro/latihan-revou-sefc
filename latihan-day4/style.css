@@ -1,0 +1,55 @@
+body {
+  /* padding: 0px 100px; */
+}
+.container {
+  width: 1200px;
+  margin: 0px 150px 30px;
+}
+
+
+/* navbar */
+nav {
+  height: 55px;
+  border-bottom: 2px solid black;
+}
+nav .container {
+  margin: 0px 150px;
+}
+.logo {
+  float: left;
+}
+.menu {
+  line-height: 50px;
+  float: right;
+  margin-bottom: 50px;
+  /* border-bottom: 1px solid black; */
+}
+.menu ul {
+  display: inline;
+}
+.menu ul li {
+  display: inline;
+  margin: 0px 20px;
+}
+
+
+.jumbotron {
+  border-bottom: 2px solid black;
+}
+
+.isi {
+  border-bottom: 2px solid black;
+}
+.isi-list-gambar {
+  /* box-sizing: border-box; */
+  display: flex;
+}
+.isi-list-gambar img {
+  width: 25%;
+  margin: 5px 5px;
+}
+
+
+footer h5 {
+  text-align: right;
+}
