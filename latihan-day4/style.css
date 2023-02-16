@@ -1,6 +1,3 @@
-body {
-  /* padding: 0px 100px; */
-}
 .container {
   width: 1200px;
   margin: 0px 150px 30px;
@@ -9,17 +6,21 @@ body {
 
 /* navbar */
 nav {
-  height: 55px;
+  height: 56px;
   border-bottom: 2px solid black;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 nav .container {
   margin: 0px 150px;
 }
 .logo {
   float: left;
+  margin-top: 3px;
 }
 .menu {
-  line-height: 50px;
+  line-height: 56px;
   float: right;
   margin-bottom: 50px;
   /* border-bottom: 1px solid black; */
@@ -30,6 +31,18 @@ nav .container {
 .menu ul li {
   display: inline;
   margin: 0px 20px;
+}
+.menu ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(234, 187, 0);
+}
+.menu ul li a:hover {
+  color: rgb(149, 120, 4);
+}
+
+header {
+  margin-top: 80px;
 }
 
 
@@ -49,7 +62,35 @@ nav .container {
   margin: 5px 5px;
 }
 
-
-footer h5 {
+footer {
+  padding: 10px 0px;
+  position: relative;
+}
+footer div {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+footer a {
+  margin: 0px 10px;
+}
+footer p {
   text-align: right;
+  margin-top: 4px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.tombol {
+  position: fixed;
+  /* z-index: 10; */
+  right: 25px;
+  bottom: 10px;
+}
+.tombol p {
+  text-align: right;
+}
+.tombol p i {
+  background-color: rgb(234, 187, 0);
+  border-radius: 50%;
 }
